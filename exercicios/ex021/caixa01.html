@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de caixas</title>
+    <style>
+      h1 {
+        /* box-level => Ele quebra a linha criando uma box e pega a largura(right) da página inteira para mudar para o inline-level usa-se "display:inline;"*/
+
+        background-color: lightgray;
+        height: 300px;
+        width: 300px;
+
+        /*border-width: 10px;
+        border-style: solid;
+        border-color: darkslategray;
+        */
+
+        border: 10px solid darkslategray;
+
+        /*  Padding ou Margin que todos os lados sejam do mesmo tamanho, só se usa uma vez
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        */
+
+        padding: 10px;
+
+        /*
+          Sempre se usa auto para deixar centralizado os itens que sejam na caixa como o "margin: auto", padding, se for texto, usa-se "text-align: center";
+        */
+
+        /*margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        */
+
+        margin: 20px auto 40px auto;
+
+        /*outline-width: 5px;
+        outline-style: dashed;
+        outline-color: salmon;
+        */
+
+        outline: 5px solid salmon;
+      }
+
+      a {
+        /* inline-level => Ele se torna um mesmo com a linha e não tem como modificar altura(height) e nem a largura(width) para muda-ló para box-level, usa-se "display: block;*/
+
+        /*border-width: 10px;
+        border-style: solid;
+        border-color: red;
+        */
+
+        border: 10px solid red;
+
+        /*padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        */
+
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplos de caixa box-level</h1>
+    <p>
+      Parágrafos também são exemplos de box-level, mas os
+      <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como
+      tudo isso funciona.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+@font-face {
+  font-family: idroid;
+  src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #3CD782, #154A2D);
+  text-align: center;
+  color: white;
+  height: 200px;
+  box-shadow: 2px 2px 4px black;
+}
+
+p {
+  text-indent: 40px;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.titulo {
+  font-family: idroid;
+  color: #1A5C38;
+}
+
+h2 {
+  background-image: linear-gradient(to right, #C5EBD6, white);
+  font-family: idroid, times, serif;
+  color: #1A5C38;
+  padding-left: 10px;
+}
+
+h3 {
+  background-color: #2FA866;
+  border-radius: 20px 20px 0px 0px;
+  padding: 8px;
+  color: white;
+}
+
+.cabecario {
+  margin: 10px 0px 0px 0px;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.externos {
+  color: #1A5C38;
+  font-weight: bold;
+}
+
+nav {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 40px;
+  width: 380px;
+}
+
+main {
+  background-color: white;
+  box-shadow: 2px 2px 10px;
+  margin-left: 19%;
+  margin-right: 19%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.link1 {
+  padding-right: 18px;
+  padding-left: 6px;
+  text-decoration: none;
+  color: white;
+}
+
+.link2 {
+  padding-right: 18px;
+  color: white;
+}
+
+.link3 {
+  padding-right: 18px;
+  color: white;
+}
+
+.link4 {
+  color: white;
+}
+
+.cria {
+  width: 794px;
+}
+
+.video {
+  width: 100%;
+  box-shadow: 1px 1px 4px;
+}
+
+.orgvideo {
+  background-color: #1A5C38;
+  padding: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.android {
+  padding-left: 230px;
+}
+
+#quadro {
+  background-color: #C5EBD6;
+  border-radius: 20px;
+}
+
+#mudar {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+ul {
+  list-style-image: url('check.png');
+}
+
+.esquerda {
+  padding-left: 34px;
+}
+
+.direita {
+  margin-left: 400px;
+  margin-top: -160px;
+}
+
+.espaco {
+  padding-bottom: 20px;
+}
+
+.ultimo {
+  padding-bottom: 30px;
+}
+
+footer{
+  background-color: #1A5C38;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
